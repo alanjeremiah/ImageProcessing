@@ -4,6 +4,6 @@ Feature Extraction or Detection is a key concept in image processing, as these h
 
 So, How can it be pre processed?
 
-Since SIFT algorithm works on local gradients, edges identification and noise removal is necessary, so that unwanted features are not detected. A Gaussian high pass filter or gaussian blur with edge detection can be done to pre process the image. Also the image should have a good contrast. Poorly contrast images results in poor feature detection. Histogram equalization can be done to improve the contrast, to better improve the image before feed to the SIFT algorithm. 
+Since SIFT algorithm works on local gradients, edges identification and noise removal is necessary, so that unwanted features are not detected. A Gaussian high pass filter or gaussian blur with edge detection can be done to pre process the image, as the gaussian blur produces thick edges and high pass filter sharpens the edges.
 
 Hence, in this project, the working of Image pyramids and SIFT is done, and the image is pre processed using the above mentioned filters to improve the results of feature detection
